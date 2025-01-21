@@ -44,6 +44,7 @@ spec:
   selector:
     app: netflix-frontend
   ports:
-    - port: 3000
+    - protocol: TCP
+      port: 3000
       targetPort: 3000
       nodePort: 30001
